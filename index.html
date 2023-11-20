@@ -8,20 +8,49 @@
     <!-- HOJA DE ESTILO GENERAL CSS-->
     <link rel="stylesheet" href="./media/css/general.css">
     <!--FAVICON-->
-    <link rel="shortcut icon" href="media/imagenes/favicon.png" type="image/x-icon">
-    <title>Inicio</title>
+    <link rel="shortcut icon" href="media/imagenes/favicon.jpg" type="image/x-icon">
+    <title>Inicio</title>    
 </head>
+<style>
+    body{
+        background-image: url('media/imagenes/background.jpg');
+    }
+</style>
 <body>
-    <div>
+    <div class="table0">
         <h1 class="titulos">Bienvenido</h1>
-        <p class="parrafos">Ingrese con su usuario</p>
     </div>
     <div>
-        <table class="table1">
+        <table class="table0">
             <tr>
-                <td><br></td>
-                <td></td>
-                <td><br></td>
+                <td class="fondo1" style="width: 50%;" >
+                    <p class="p2">Esta pagina es un punto de venta tiendas de abarrotes
+                    <br>para ayudar con la contabilidad, el control de los empleados
+                    <br>y el inventario, todo esto con el proposito de ayudar
+                    <br>a la administracion del negocio</p>
+                    <p class="p2">Chi cheñol</p>
+                </td>
+                <td class="fondo2" style="width: 50%;">
+                    <div class="p1">
+                        <br>
+                        <label for="">Nombre del Acceso</label>
+                        <br><br>
+                        <input name="nombre_usuario" type="text" placeholder="Ingresa Usuario" required class="tamaño">
+                        <br><br>
+                        <label for="">Contraseña</label>
+                        <br><br>
+                        <input name="password" type="password" required  placeholder="Ingresa contrasenia" class="tamaño">
+                        <br><br>
+                        <button>Log in</button> <br> <br>
+                        <br>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="p1" colspan="2">
+                    <p> Para registrarse pulse el boton</p>
+                    <button> Sing in </button>
+                </td>
             </tr>
         </table>
     </div>

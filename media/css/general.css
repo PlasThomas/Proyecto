@@ -15,20 +15,46 @@ FUENTE PARA TITULOS
 body{
     background-color: rgba(65, 122, 144, 0.752);
     font-family:'EuralDB';
-    padding: 3em;
+}
+
+.table0{
+    margin: 0 auto;
+    background-color: rgba(65, 122, 144, 0.752);
+    width: 70%;
+    border: 1;
+    border-radius: 25px;
 }
 .table1{
-    background-color: white;
+    background-color: rgb(43, 190, 201);
     width: 100%;
+    margin: 0 auto;
+    border: 1;
+    border-radius: 25px;
 }
 .titulos{
     text-align: center;
     font-family:'Znikoslsvginot-8';
     font-size: 3em;
+    padding: 1em;
     color: rgba(0, 0, 0, 0.795);
 }
-.parrafos{
-    text-align: center;
-    font-size: medium;
+.p1{
+    margin: auto;
+    text-align:center;
+    font-size: 1em;
     color: rgba(0, 0, 0, 0.795);
+}
+.p2{
+    margin: 5%;
+    text-align:left;
+    font-size: 1em;
+    color: rgba(0, 0, 0, 0.795);
+}
+.fondo1{
+    background-color:rgba(79, 128, 0, 0.466);
+    border-radius: 25px;
+}
+.fondo2{
+    background-color: rgba(157, 255, 0, 0.411);
+    border-radius: 25px;
 }
