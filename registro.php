@@ -25,8 +25,17 @@
     </div>
     <form action="SingIn.php" method="post">
         <div class="ventana">
-            <p>hola XD</p><br>
-            <p>sos</p>
+            <br>
+            <label for="">Nombre del Acceso</label>
+            <br><br>
+            <input name="nombre_usuario" type="text" placeholder="Ingresa Usuario" required class="tamaño">
+            <br><br>
+            <label for="">Contraseña</label>
+            <br><br>
+            <input name="password" type="password" required  placeholder="Ingresa contrasenia" class="tamaño">
+            <br><br>
+            <button>Log in</button> <br> <br>
+            <br>
         </div>
     </form>
 </body>
