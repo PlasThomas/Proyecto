@@ -11,9 +11,11 @@
     <link rel="shortcut icon" href="media/imagenes/favicon.jpg" type="image/x-icon">
     <title>Inicio</title>    
 </head>
-<style>
+<style class= >
     body{
         background-image: url('media/imagenes/background.jpg');
+        backdrop-filter: blur(5px);
+
     }
 </style>
 <body>
