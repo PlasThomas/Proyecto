@@ -51,7 +51,7 @@
             <tr>
                 <td class="p1" colspan="2">
                     <p> Para registrarse pulse el boton</p>
-                    <a href="registro.html"><button>Sing in</button><br><br>
+                    <a href="registro.php"><button>Sing in</button><br><br>
                     </a>
                 </td>
             </tr>
