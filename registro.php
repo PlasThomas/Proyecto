@@ -22,7 +22,7 @@
             <button>Regresar</button>
         </a>
     </div>
-    <form action="SingIn.php" method="post">
+    <form action="/programs/SingIn.php" method="post">
         <div class="ventana">
             <br>
             <label for="">Nombre </label>
@@ -31,15 +31,15 @@
             <br><br>
             <label for=""Telefono></label>
             <br><br>
-            <input name="Telefono" type="text" required  placeholder="Ingresa contrasenia" class="tamaño">
+            <input name="Telefono" type="text" required  placeholder="Ingresa tu Telefono" class="tamaño">
             <br><br>
             <label for=""Email></label>
             <br><br>
-            <input name="Email" type="text" required  placeholder="Ingresa contrasenia" class="tamaño">
+            <input name="Email" type="text" required  placeholder="Ingresa tu Email" class="tamaño">
             <br><br>
             <label for="">Contraseña</label>
             <br><br>
-            <input name="password" type="password" required  placeholder="Ingresa contrasenia" class="tamaño">
+            <input name="password" type="password" required  placeholder="Ingresa tu contrasenia" class="tamaño">
             <br><br>
             <button>Log in</button> <br> <br>
             <br>

@@ -69,3 +69,12 @@ body{
     padding: 3em;
     width: 100%;
 }
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    margin: 0 10px; /* Ajusta el margen según sea necesario */
+}

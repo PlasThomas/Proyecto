@@ -3,6 +3,7 @@
     include "conexion.php";
     $usuario = $_POST['nombre_usuario'];
     $password = $_POST['password'];
+    
 
     $q = "SELECT COUNT(*) AS contar FROM usuarios WHERE Nombre = '$usuario' AND Contraseña = '$password'";
 

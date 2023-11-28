@@ -12,11 +12,11 @@
     <title>Pagina de Inicio</title>
 </head>
 <body>
-    <div>
-        <a href=""><button>Precios</button></a>
-        <a href=""><button>Inventario</button></a>
-        <a href=""><button>Venta</button></a>
-        <a href=""><button>Contabilidad</button></a>
+    <div class="container">
+        <a href="/funcionesPags/Precios.php"><button>Precios</button></a>
+        <a href="/funcionesPags/Inventario.php"><button>Inventario</button></a>
+        <a href="/funcionesPags/Venta.php"><button>Venta</button></a>
+        <a href="/funcionesPags/Contable.php"><button>Contabilidad</button></a>
     </div>
 </body>
 </html>
