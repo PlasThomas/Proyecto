@@ -73,7 +73,7 @@ CREATE TABLE IF NOT EXISTS `Tienda`.`Usuarios` (
   `Telefono` VARCHAR(15) NOT NULL UNIQUE,
   `Email` VARCHAR(50) NOT NULL UNIQUE,
   `Permisos` VARCHAR(4) NOT NULL DEFAULT 'USUA',
-  `F_registro` DATE NOT NULL DEFAULT current_timestamp,
+  `F_registro` TIMESTAMP NOT NULL DEFAULT current_timestamp,
   PRIMARY KEY (`ID_Usuario`)
   )
 ENGINE = InnoDB;
@@ -82,3 +82,6 @@ ENGINE = InnoDB;
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
+
+insert into Usuarios (ID_Usuario, Nombre, Contraseña, Telefono, Email, Permisos)values 
+(1, 'Jose Manuel Plascencia Ramos', '12346plas','5610330668', 'jweo192@gmail.com', 'ADMI');
