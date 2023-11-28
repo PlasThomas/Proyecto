@@ -8,8 +8,7 @@
     <!-- HOJA DE ESTILO GENERAL CSS-->
     <link rel="stylesheet" href="./media/css/general.css">
     <!--FAVICON-->
-    <link rel="shortcut icon" href="media/imagenes/favicon.jpg" type="image/x-icon">
-    <title>Inicio</title>    
+    <link rel="shortcut icon" href="media/imagenes/favicon.jpg" type="image/x-icon"> 
     <title>Registro</title>
 </head>
 <style>
@@ -19,7 +18,7 @@
 </style>
 <body>
     <div style="text-align: left; padding: 2em;">
-        <a href="index.html">
+        <a href="index.php">
             <button>Regresar</button>
         </a>
     </div>

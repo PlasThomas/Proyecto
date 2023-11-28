@@ -9,13 +9,17 @@
     <link rel="stylesheet" href="./media/css/general.css">
     <!--FAVICON-->
     <link rel="shortcut icon" href="media/imagenes/favicon.jpg" type="image/x-icon">
-    <title>Inicio</title>    
+    <title>Inicio Sesion</title>    
 </head>
 <style class= >
     body{
         background-image: url('media/imagenes/background.jpg');
-        backdrop-filter: blur(5px);
-
+        background-image: no-repeat;
+        background-image: fixed;
+        background-image: center;
+        background-size: cover;
+        backdrop-filter: blur(3px);
+        
     }
 </style>
 <body>

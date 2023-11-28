@@ -62,4 +62,10 @@ body{
     width: 40%;
     border: 1;
     padding: 3em;
+    text-align: center;
+}
+.img1{
+    background-image: url("/media/imagenes/background.jpg");
+    padding: 3em;
+    width: 100%;
 }

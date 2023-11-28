@@ -3,7 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="Author" content="Plascencia Ramos Jose Manuel">
+    <meta name="Description" content="Pagina de inicio del proyecto final">
+    <!-- HOJA DE ESTILO GENERAL CSS-->
+    <link rel="stylesheet" href="./media/css/general.css">
+    <!--FAVICON-->
+    <link rel="shortcut icon" href="media/imagenes/favicon.jpg" type="image/x-icon">
+    <title>Contabilidad</title>
 </head>
 <body>
     
