@@ -85,3 +85,6 @@ SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 
 insert into Usuarios (ID_Usuario, Nombre, Contraseña, Telefono, Email, Permisos)values 
 (1, 'Jose Manuel Plascencia Ramos', '12346plas','5610330668', 'jweo192@gmail.com', 'ADMI');
+insert into productos values(1,'Frijoles',1,10,14,20,'sasasas');
+insert into proveedores values(1,'Isadora','5510121212');
+insert into venta values(1,curdate(),1,10,14,2);

@@ -13,6 +13,11 @@ FUENTE PARA TITULOS
     src: url("/media/fonts/Znikoslsvginot8-GOB3y.ttf");
 }
 body{
+    background-image: url('../media/imagenes/background.jpg');
+    background-image: no-repeat; 
+    background-image: fixed; 
+    background-image: center; 
+    backdrop-filter: blur(3px);     
     background-color: rgba(65, 122, 144, 0.752);
     font-family:'EuralDB';
 }
@@ -23,11 +28,12 @@ body{
     border: 1;
 }
 .table1{
-    background-color: rgb(43, 190, 201);
-    width: 100%;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(65, 122, 144, 0.752);
+    width: 80%;
     margin: 0 auto;
     border: 1;
-    border-radius: 25px;
 }
 .titulos{
     text-align: center;

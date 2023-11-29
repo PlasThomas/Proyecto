@@ -12,29 +12,43 @@
     <title>Precios</title>
 </head>
 <body>
-    <div style="background-image: url('media/imagenes/background.jpg');
-        background-image: no-repeat; background-image: fixed; background-image: center; backdrop-filter: blur(3px);" 
-        class="container">
+    <div class="container">
         <button>Precios</button>
         <a href="Inventario.php"><button>Inventario</button></a>
         <a href="Venta.php"><button>Venta</button></a>
         <a href="Contable.php"><button>Contabilidad</button></a>
         <a href="../index.php"><button>Salir</button></a>
     </div>
-    <table class="table0">
+    <table class="table1">
         <tr>
-        <td>
-            <h2 class="titulos">Actualizar precios</h2>
-            <form action="Actualizar.php" method="post">
-
-            </form>
-        </td>
-        <td>
-            <h2 class="titulos">Consultar precios</h2>
-            <form action="Consulta.php" method="post">
-                
-            </form>
-        </td>
+            <td class="fondo1">
+                <h3 style="font-size: 1em;" class="titulos">Actualizar precios</h3>
+                <form action="../programs/ActualizarP.php" method="post">
+                    <br>
+                    <label for="">Clave del Producto</label>
+                    <br><br>
+                    <input name="Clave" type="text">
+                    <br><br>
+                    <label for="">Nuevo precio</label>
+                    <br><br>
+                    <input name="NPrecio" type="text">
+                    <br><br>
+                    <button>Actualizar</button>
+                    <br><br>
+                </form>
+            </td>
+            <td>
+                <h3 style="font-size: 1em;" class="titulos">Consultar precios</h3>
+                <form action="ConsultarP.php" method="post">
+                    <br>
+                    <label for="">Nombre</label>
+                    <br><br>
+                    <input name="Nombre" type="text">
+                    <br><br>
+                    <button>Consultar</button>
+                    <br><br>
+                </form>
+            </td>
         </tr>
     </table>
 </body>

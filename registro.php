@@ -22,8 +22,8 @@
             <button>Regresar</button>
         </a>
     </div>
-    <form action="./programs/SingIn.php" method="post">
-        <div class="ventana">
+    <form action="./programs/SingIn.php" method="post" class="ventana">
+        <div class="fondo1">
             <br>
             <label for="">Nombre </label>
             <br><br>
