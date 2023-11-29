@@ -35,7 +35,7 @@
             <br><br>
             <label for="">Email</label>
             <br><br>
-            <input name="Email" type="text" required  placeholder="Ingresa tu Email" required>
+            <input name="Email" type="e" required  placeholder="Ingresa tu Email" required>
             <br><br>
             <label for="">Contraseña</label>
             <br><br>
