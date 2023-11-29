@@ -19,7 +19,7 @@
         <a href="./funcionesPags/Inventario.php"><button>Inventario</button></a>
         <a href="./funcionesPags/Venta.php"><button>Venta</button></a>
         <a href="./funcionesPags/Contable.php"><button>Contabilidad</button></a>
-        <a href="inex.php"><button>Salir</button></a>
+        <a href="./index.php"><button>Salir</button></a>
     </div>
 </body>
 </html>
