@@ -1,9 +1,9 @@
 <?php
     session_start();
-    include "conexion.php";
+    include "Conexion.php";
     $usuario = $_POST['nombre_usuario'];
     $password = $_POST['password'];
-    
+
 
     $q = "SELECT COUNT(*) AS contar FROM usuarios WHERE Nombre = '$usuario' AND Contraseña = '$password'";
 
@@ -15,10 +15,10 @@
         // en la variable session se guarda el numero de cuenta esto para poder acarrearla
         $_SESSION['usermane']=$usuario;
         echo "Ingresaste";
-        header("location: ./Inicio.php");
+        header("location: ../Inicio.php");
     }else{
 
-            header("location: ./index.php");
+            header("location: ../index.php");
 
     echo "error";
     

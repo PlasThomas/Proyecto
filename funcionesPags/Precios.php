@@ -12,6 +12,14 @@
     <title>Precios</title>
 </head>
 <body>
-    
+    <div style="background-image: url('media/imagenes/background.jpg');
+        background-image: no-repeat; background-image: fixed; background-image: center; backdrop-filter: blur(3px);" 
+        class="container">
+        <button>Precios</button>
+        <a href="./funcionesPags/Inventario.php"><button>Inventario</button></a>
+        <a href="./funcionesPags/Venta.php"><button>Venta</button></a>
+        <a href="./funcionesPags/Contable.php"><button>Contabilidad</button></a>
+        <a href="inex.php"><button>Salir</button></a>
+    </div>
 </body>
 </html>

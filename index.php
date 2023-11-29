@@ -37,7 +37,7 @@
                     <p class="p2">Chi cheñol</p>
                 </td>
                 <td class="fondo2" style="width: 50%;">
-                    <form action="/programs/LogIn.php" method="post">
+                    <form action="programs/LogIn.php" method="post">
                         <div class="p1">
                             <br>
                             <label for="">Nombre del Acceso</label>

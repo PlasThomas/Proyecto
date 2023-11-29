@@ -22,24 +22,24 @@
             <button>Regresar</button>
         </a>
     </div>
-    <form action="/programs/SingIn.php" method="post">
+    <form action="./programs/SingIn.php" method="post">
         <div class="ventana">
             <br>
             <label for="">Nombre </label>
             <br><br>
-            <input name="Nombre" type="text" placeholder="Ingresa Usuario" required class="tamaño">
+            <input name="Nombre" type="text" placeholder="Ingresa Usuario" required >
             <br><br>
-            <label for=""Telefono></label>
+            <label for="">Telefono</label>
             <br><br>
-            <input name="Telefono" type="text" required  placeholder="Ingresa tu Telefono" class="tamaño">
+            <input name="Telefono" type="text" required  placeholder="Ingresa tu Telefono" required>
             <br><br>
-            <label for=""Email></label>
+            <label for="">Email</label>
             <br><br>
-            <input name="Email" type="text" required  placeholder="Ingresa tu Email" class="tamaño">
+            <input name="Email" type="text" required  placeholder="Ingresa tu Email" required>
             <br><br>
             <label for="">Contraseña</label>
             <br><br>
-            <input name="password" type="password" required  placeholder="Ingresa tu contrasenia" class="tamaño">
+            <input name="password" type="password" required  placeholder="Ingresa tu contrasenia" required>
             <br><br>
             <button>Log in</button> <br> <br>
             <br>
