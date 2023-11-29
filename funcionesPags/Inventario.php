@@ -25,7 +25,7 @@
         <tr>
             <td class="fondo1">
                 <h3 style="font-size: 1em;" class="titulos">Modificar inventario</h3>
-                <form action="../programs/realVenta.php" method="post">
+                <form action="../programs/modInventario.php" method="post">
                     <br>
                     <label for="">ID Producto</label>
                     <br><br>

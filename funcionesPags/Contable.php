@@ -12,7 +12,7 @@
     <title>Contabilidad</title>
 </head>
 <body>
-<div style="background-image: url('media/imagenes/background.jpg');
+    <div style="background-image: url('media/imagenes/background.jpg');
         background-image: no-repeat; background-image: fixed; background-image: center; backdrop-filter: blur(3px);" 
         class="container">
         <a href="Precios.php"><button>Precios</button></a>
@@ -21,5 +21,37 @@
         <button>Contabilidad</button>
         <a href="../index.php"><button>Salir</button></a>
     </div>
+    <table class="table1">
+        <tr>
+            <td class="fondo1">
+                <h3 style="font-size: 1em;" class="titulos">Consultar ganacia por proveedor</h3>
+                <form action="" method="post">
+                    <br>
+                    <label for="">ID Proveedor</label>
+                    <br><br>
+                    <input name="proveedor" type="text">
+                    <br><br>
+                    <button>Consultar</button>
+                    <br><br>
+                </form>
+            </td>
+            <td>
+                <h3 style="font-size: 1em;" class="titulos">Consultar gasto por proveedor</h3>
+                <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
+                    <br>
+                    <label for="">ID Proveedor</label>
+                    <br><br>
+                    <input name="Proveedor" type="text">
+                    <br><br>
+                    <button>Consultar</button>
+                    <br><br>
+                </form>
+            </td>
+        </tr>
+        <tr colspan = 2 ></tr>
+            <?php
+                
+            ?>
+    </table>
 </body>
 </html>
