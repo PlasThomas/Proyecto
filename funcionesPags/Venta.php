@@ -43,7 +43,7 @@
                 <h3 style="font-size: 1em;" class="titulos">Consultar ventas</h3>
                 <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
                     <br>
-                    <label for="">fecha</label>
+                    <label for="">Fecha</label>
                     <br><br>
                     <input name="fecha" type="text">
                     <br><br>

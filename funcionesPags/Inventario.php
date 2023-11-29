@@ -21,5 +21,41 @@
         <a href="Contable.php"><button>Contabilidad</button></a>
         <a href="../index.php"><button>Salir</button></a>
     </div>
+    <table class="table1">
+        <tr>
+            <td class="fondo1">
+                <h3 style="font-size: 1em;" class="titulos">Modificar inventario</h3>
+                <form action="../programs/realVenta.php" method="post">
+                    <br>
+                    <label for="">ID Producto</label>
+                    <br><br>
+                    <input name="Producto" type="text">
+                    <br><br>
+                    <label for="">Cantidad que se modifica</label>
+                    <br><br>
+                    <input name="Cantidad" type="text">
+                    <br><br>
+                    <button>Actualizar</button>
+                    <br><br>
+                </form>
+            </td>
+            <td>
+                <h3 style="font-size: 1em;" class="titulos">Consultar Inventario</h3>
+                <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
+                    <br>
+                    <label for="">ID del producto</label>
+                    <br><br>
+                    <input name="producto" type="text">
+                    <br><br>
+                    <button>Consultar</button>
+                    <br><br>
+                </form>
+            </td>
+        </tr>
+        <tr colspan = 2 ></tr>
+            <?php
+                
+            ?>
+    </table>
 </body>
 </html>
