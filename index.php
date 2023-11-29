@@ -18,8 +18,7 @@
         background-image: fixed;
         background-image: center;
         background-size: cover;
-        backdrop-filter: blur(3px);
-        
+        backdrop-filter: blur(3px);    
     }
 </style>
 <body>

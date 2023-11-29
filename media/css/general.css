@@ -7,18 +7,13 @@ FUENTE PARA TEXTO PARRAFOS
 }
 /*
 FUENTE PARA TITULOS
+background-color: rgba(65, 122, 144, 0.752)
 */
 @font-face {
     font-family: 'Znikoslsvginot-8';
     src: url("/media/fonts/Znikoslsvginot8-GOB3y.ttf");
 }
-body{
-    background-image: url('../media/imagenes/background.jpg');
-    background-image: no-repeat; 
-    background-image: fixed; 
-    background-image: center; 
-    backdrop-filter: blur(3px);     
-    background-color: rgba(65, 122, 144, 0.752);
+body{    
     font-family:'EuralDB';
 }
 .table0{
@@ -34,6 +29,20 @@ body{
     width: 80%;
     margin: 0 auto;
     border: 1;
+}
+.cosa{
+    
+    margin: auto;
+    text-align: center;
+    background-color: rgba(65, 122, 144, 0.752);
+    width: 100%;
+    margin: 0 auto;
+    border: 1;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    height: 10%;
+    padding: auto;
 }
 .titulos{
     text-align: center;
@@ -76,10 +85,11 @@ body{
     width: 100%;
 }
 .container {
-    display: flex;
     justify-content: center;
     align-items: center;
     align-content: space-between;
+    margin: 5%;
+    height: 10%;
 
 }
 

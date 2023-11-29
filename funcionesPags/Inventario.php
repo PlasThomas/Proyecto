@@ -8,13 +8,21 @@
     <!-- HOJA DE ESTILO GENERAL CSS-->
     <link rel="stylesheet" href="../media/css/general.css">
     <!--FAVICON-->
-    <link rel="shortcut icon" href="media/imagenes/favicon.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="../media/imagenes/favicon.jpg" type="image/x-icon">
     <title>Inventario</title>
 </head>
+<style class= >
+    body{
+        background-image: url('../media/imagenes/background.jpg');
+        background-image: no-repeat;
+        background-image: fixed;
+        background-image: center;
+        background-size: cover;
+        backdrop-filter: blur(3px);    
+    }
+</style>
 <body>
-    <div style="background-image: url('media/imagenes/background.jpg');
-        background-image: no-repeat; background-image: fixed; background-image: center; backdrop-filter: blur(3px);" 
-        class="container">
+    <div class="cosa">
         <a href="Precios.php"><button>Precios</button></a>
         <button>Inventario</button>
         <a href="Venta.php"><button>Venta</button></a>
