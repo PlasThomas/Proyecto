@@ -39,7 +39,7 @@
             </td>
             <td>
                 <h3 style="font-size: 1em;" class="titulos">Consultar precios</h3>
-                <form action="ConsultarP.php" method="post">
+                <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
                     <br>
                     <label for="">Nombre</label>
                     <br><br>
@@ -50,6 +50,27 @@
                 </form>
             </td>
         </tr>
+        <tr colspan = 2 ></tr>
+            <?php
+                include "../programs/Conexion.php";
+                $nombre = $_POST['Nombre'];
+                $q ="SELECT ID_productos, Nombre, precio_ven FROM productos WHERE Nombre = '$nombre'";
+                $result = $conexion->query($q);
+                if ($result->num_rows > 0) {
+                    echo "<table border='1'>";
+                    echo "<tr><th>ID</th><th>Nombre</th><th>precio</th></tr>";
+                    while ($row = $result->fetch_assoc()) {
+                        echo "<tr>";
+                        echo "<td>" . $row["ID_productos"] . "</td>";
+                        echo "<td>" . $row["Nombre"] . "</td>";
+                        echo "<td>" . $row["precio_ven"] . "</td>";
+                        echo "</tr>";
+                    }
+                    echo "</table>";
+                } else {
+                    echo "No se encontraron resultados.";
+                }
+            ?>
     </table>
 </body>
 </html>
